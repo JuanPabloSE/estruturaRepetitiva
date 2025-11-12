@@ -7,14 +7,11 @@ public class beecrowd1078 {
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();
-
-        int contador = 1;
         int resultado = 0;
 
-        while (contador <= 10) {
-            resultado = contador * N;
-            System.out.println(contador + " x " + N + " = " + resultado);
-            contador++;
+        for (int i = 1; i <= 10; i++) {
+            resultado = i * N;
+            System.out.println(i + " x " + N + " = " + resultado);
         }
 
 
