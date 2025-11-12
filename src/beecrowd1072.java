@@ -5,18 +5,16 @@ public class beecrowd1072 {
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();
-        int contador = 1;
         int somaIn = 0, somaOut = 0;
 
-        while (contador <= N) {
-            int numeros = sc.nextInt();
-            if(numeros >= 10 && numeros <= 20) {
+        for (int i = 1; i <= N; i++) {
+            int X = sc.nextInt();
+            if (X >= 10 && X <= 20) {
                 somaIn++;
             }
-            else if(numeros < 10 || numeros > 20) {
+            else {
                 somaOut++;
             }
-            contador++;
         }
         System.out.println(somaIn + " in");
         System.out.println(somaOut + " out");
