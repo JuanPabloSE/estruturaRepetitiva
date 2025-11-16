@@ -9,14 +9,13 @@ public class beecrowd1101 {
         int M = sc.nextInt();
         int N = sc.nextInt();
 
-        while (M > 0 && N > 0) {
+        while (M > 0 && N > 0){
             int menor = Math.min(M, N);
-            int maior = Math.max(M, N);
+            int maior = Math.max(N, M);
             int soma = 0;
-            while (menor <= maior) {
-                System.out.print(menor + " ");
-                soma += menor;
-                menor++;
+            for (int i = menor; i <= maior; i++){
+                soma = soma + i;
+                System.out.print(i + " ");
             }
             System.out.println("Sum=" + soma);
 
