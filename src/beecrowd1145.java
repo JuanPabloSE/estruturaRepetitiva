@@ -10,7 +10,7 @@ public class beecrowd1145 {
 
         for (int i = 1; i <= Y; i++) {
             System.out.print(i);
-            if (i % X == 0) {
+            if (i % X == 0) {                           // SE (i) for MULTIPLO de (X) - Completou as linhas, hora de pular.
                 System.out.println();
             }
             else {
