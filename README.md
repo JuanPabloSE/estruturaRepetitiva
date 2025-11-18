@@ -68,7 +68,8 @@ Se este conteúdo te ajudar, considere deixar uma estrela (⭐) no GitHub!
 
 --- 
 
-###📬 Contato
+### 📬 Contato
 
 Se quiser conversar sobre Java, estágio ou carreira em desenvolvimento, estou à disposição!
+
 LinkedIn: https://www.linkedin.com/in/juanpablose/
