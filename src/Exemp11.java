@@ -24,10 +24,6 @@ public class Exemp11 {
 
         }
 
-
-
-
-
         sc.close();
     }
 }
