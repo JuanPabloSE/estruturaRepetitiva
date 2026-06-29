@@ -8,7 +8,6 @@ public class beecrowd1114 {
 
         // VARIÁVEL E ENTRADA
         int senha = sc.nextInt();
-
         while (senha != 2002){
             System.out.println("Senha Invalida");
             senha = sc.nextInt();
